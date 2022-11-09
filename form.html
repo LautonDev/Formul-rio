@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Web</title>
+</head>
+<h1>Meu Formulário</h1>
+<form action="https://formspree.io/f/xoqblyqb" method="POST">
+    <p>
+    <label>Digite seu nome</label><br>
+    <input placeholder="Digite algo..." type="text" required="required" value="Meu Nome..." name="Nome:">
+    </p>
+    <p>
+    <label><h2>Digite sua Mensagem:</h2></label>
+    <textarea name="Texte de Ajuda" placeholder="Digite Algo">Suas Palavras...</textarea><br>
+    <p>
+        <label><h3>Escolha os esportes que pratica:</h3></label>
+        <ul>
+            <li><input value="SIM" name="Judo" type="checkbox">Judo.</li>
+            <li><input value="SIM" name="Futebol" type="checkbox">Futebol.</li>
+            <li><input value="SIM" name="Tenis" type="checkbox">Tênis.</li>
+        </ul>
+        <p>
+            <label><h3>Escolha sua cor favorita:</h3></label>
+            <ul>
+                <li><input value="Vermelho" name="cor" type="radio">Vermelho</li>
+                <li><input value="Azul" name="cor" type="radio">Azul</li>
+                <li><input value="Verde" name="cor" type="radio">Amarelo</li>
+            </ul>
+    </p><br>
+    <p>
+        <label> Escolha sua Cidade</label><br>
+        <select>
+            <option>Andirá</option>
+            <option>Cambará</option>
+            <option>Bandeirantes</option>
+        </select>
+    </p>
+    <p>
+    <input required value="SIM" name="TermosdoContrato" type="checkbox">Eu aceito os termos de uso.
+    </p>
+        <button type="submit">Enviar Dados</button>
+    </form>
